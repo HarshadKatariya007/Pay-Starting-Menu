@@ -1,0 +1,201 @@
+
+
+
+/* PayZilla Home Menu CSS */
+
+.loading
+{
+    z-index: 2;
+}
+.loading .rocket-img
+{
+   transform: translate(-50%);
+}
+.flash-img
+{
+    z-index: -1;
+    transform: translate(-50%);
+}
+.loading .rocket-img img,.flash-img img
+{
+    max-width: none;
+}
+ .logo-loading
+{
+    max-width:250px;
+    transform: translate(-50%); 
+    bottom:300px;
+}
+
+
+
+/* Pay Home CSS */
+
+.payzilla-home-menu .payzilla-bg
+{
+    padding-bottom:50px;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.payzilla-home-menu .payzilla-bg::after
+{
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    bottom: 0;
+    left: 50%;
+    height:280%;
+    width: calc(240vw + -80 * (100vw - 320px) / 1600);
+    z-index: -1;
+    border-radius:100%;
+    transform: translateX(-50%);
+}
+
+
+.payzilla-home-menu .chain
+{
+    margin: 0 auto;
+    height: 190px;
+    width: 130px;
+}
+
+.payzilla-bg .chain .left-chain
+{
+    border-left:1px dashed black;
+    height: 100%;
+    top:-5px;
+    transform: rotate(2deg);
+}
+
+.payzilla-bg .chain .right-chain
+{
+    border-left:1px dashed black;
+    height: 100%;
+    top:-5px;
+    transform: rotate(350deg);
+}
+
+.payzilla-bg .chain .left-chain::after
+{
+    background-color: black;
+    content: "";
+    position: absolute;
+    height: 10px;
+    width:10px;
+    top:1px;
+    left:-5px;
+    border-radius: 50%;
+}
+
+.payzilla-bg .chain .right-chain::after
+{
+    background-color: black;
+    content: "";
+    position: absolute;
+    height: 10px;
+    width:10px;
+    top:1px;
+    left:-5px;
+    border-radius: 50%;
+}
+
+.payzilla-bg .payzilla-main-box
+{
+    width: 200px;
+    height: 60px;
+    box-shadow: 5px 5px 0 black;
+    border: 1px solid white;
+    margin:20px auto;
+}
+
+.payzilla-main-box-2
+{
+    width: 245px;
+    height:70px;
+    box-shadow: 5px 5px 0 black;
+    border: 1px solid white;
+    margin:20px auto;
+}
+
+.payzilla-bg .payzilla-main-box h2
+{
+    padding:10px;
+}
+
+.payzilla-bg .payzilla-main-box:nth-child(2)
+{
+    background-color: #f3edffff;
+    box-shadow: 5px 5px 0 #b9adccff;
+    border: none;
+}
+
+.payzilla-bg .payzilla-main-box:nth-child(4)
+{
+    background-color: #f3edffff;
+    box-shadow: 5px 5px 0 #b9adccff;
+    border: none;
+}
+
+.payzilla-home-menu .payzill-home-info .arror
+{
+    border: 1px solid #ffffff;
+    height:53px;
+    width: 53px;
+    padding:3px 0;
+}
+.payzilla-home-menu .payzill-home-info .arror a 
+{   
+    height:45px;
+    width:45px;
+    line-height:45px;
+    font-size: 20px;
+    padding: 10px 15px;
+} 
+
+.payzilla-bg .chain .left-chain-2
+{
+    border-left:1px dashed black;
+    height: 50%;
+    top:-5px;
+    transform: rotate(2deg);
+}
+
+.payzilla-bg .chain .right-chain-2
+{
+    border-left:1px dashed black;
+    height:50%;
+    top:-5px;
+    transform: rotate(350deg);
+}
+
+.payzilla-bg .chain .left-chain-2::after
+{
+    background-color: black;
+    content: "";
+    position: absolute;
+    height: 10px;
+    width:10px;
+    top:1px;
+    left:-5px;
+    border-radius: 50%;
+}
+
+.payzilla-bg .chain .right-chain-2::after
+{
+    background-color: black;
+    content: "";
+    position: absolute;
+    height: 10px;
+    width:10px;
+    top:1px;
+    left:-5px;
+    border-radius: 50%;
+}
+
+.card-img
+{
+   max-width: 350px;
+   margin:50px auto;
+}
